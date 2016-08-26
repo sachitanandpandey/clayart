@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src"
+set -gx VIRTUAL_ENV "/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src/icart"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src"
+VIRTUAL_ENV="/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src/icart"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

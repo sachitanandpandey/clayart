@@ -1,4 +1,4 @@
-#!/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src/bin/python
+#!/Users/sachitanand/Documents/workspace/django/sachitecom/ecommerce-2/src/icart/bin/python
 
 import sys
 import getopt
