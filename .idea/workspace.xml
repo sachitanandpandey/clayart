@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72fc8761-3237-40c4-9a09-3dc134357182" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce2/settings/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce2/settings/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce2/settings/production.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce2/settings/local.py" afterPath="$PROJECT_DIR$/ecommerce2/settings/local.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test" afterPath="$PROJECT_DIR$/test" />
     </list>
     <ignored path="icart.iws" />
     <ignored path=".idea/workspace.xml" />
