@@ -2,3 +2,7 @@ ecommerce2/settings/db_password.py
 lib
 include
 lib
+.idea
+bin
+pip-selfcheck.json
+todo.txt
