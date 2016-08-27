@@ -75,15 +75,18 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'ecommerce2.urls'
 
+'''
 TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(os.path.dirname(__file__)),"templates"),
 )
-
 '''
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(os.path.dirname(os.path.dirname(__file__)),"templates")],
+#        'DIRS': [os.path.join(os.path.dirname(os.path.dirname(__file__)),"templates")],
+#        'DIRS' : [os.path.join(os.path.dirname(os.path.dirname()),"templates")],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -95,7 +98,7 @@ TEMPLATES = [
         },
     },
 ]
-'''
+
 WSGI_APPLICATION = 'ecommerce2.wsgi.application'
 
 
@@ -109,8 +112,8 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 '''
+
 DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2', 'NAME': 'd9grku30tl3bmv', 'USER': 'zmiddasodcajys', 'PASSWORD': 'uHIARGzROaETR92oVUvoQcBWfp', 'HOST': 'ec2-54-227-250-80.compute-1.amazonaws.com', 'PORT': '5432', }
 }
 
