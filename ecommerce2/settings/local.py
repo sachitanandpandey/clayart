@@ -114,7 +114,7 @@ DATABASES = {
 }
 '''
 
-DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2', 'NAME': 'd9grku30tl3bmv', 'USER': 'zmiddasodcajys', 'PASSWORD': 'uHIARGzROaETR92oVUvoQcBWfp', 'HOST': 'ec2-54-227-250-80.compute-1.amazonaws.com', 'PORT': '5432', }
+DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2', 'NAME': 'd93ui4cqm560ju', 'USER': 'xbxnxmeyjwclcl', 'PASSWORD': 'tEJp4tdjF9sgKZcpAv2VR9DZpg', 'HOST': 'ec2-107-22-251-225.compute-1.amazonaws.com', 'PORT': '5432', }
 }
 
 # Internationalization
